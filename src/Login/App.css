@@ -1,0 +1,226 @@
+*{margin: 0; padding: 0;}
+body, h1, p, div, a, input{font-family: 'Rubik', Regular;}
+
+.imgBG{
+    display: flex;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    flex-shrink: 0;
+
+   
+}
+.formulario{
+    width: 25%;
+    height: 60vh;
+    position: relative;
+    top: 25vh;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,255,0.1);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border-radius: 15px;
+    flex-shrink: 0;
+    padding-bottom: 30px;
+}
+.titulo-login{
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: #72EFDB;
+    font-size: 24px;
+}
+input.inputs{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-width: 1px;
+    border-color: azure;
+    background-color: transparent;
+    padding-bottom: 2px;
+    flex-shrink: 0;
+    width: 80%;
+    margin: 10px;
+}
+::-webkit-input-placeholder{
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+input.botao-acessar{
+    background: #72EFDB 0% 0%  padding-box;
+    border-radius: 34px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    width: 140px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.57px;
+    color: #0B1741;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.icon{
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 25px;
+    float: right;
+    right: 100px;   
+}
+.home{
+    background-color: rgba(114, 239, 219, 1);
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    position: absolute;
+    width: 80px;
+    padding: 7px;
+    top: 20px;
+    font-size: 9px;
+    font-weight: bold;
+    right: 34px;
+    color: #0B1741;
+    text-decoration: none;
+}
+.homeLink{
+    text-decoration: none;
+    border: none;
+}
+@media (max-width: 768px){
+
+    .titulo-login{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .formulario{
+        width: 45%;
+        right: 100%;
+        height: 50%;
+        left: 30%;
+    }
+    input.inputs {
+        width: 80%;
+        margin: 10px;
+    }
+}
+@media (max-width: 425px){
+
+    .titulo-login{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .formulario{
+        width: 55%;
+        right: 100%;
+        height: 50%;
+        left: 25%;
+    }
+    input.inputs {
+        width: 80%;
+        margin: 10px;
+    }
+    ::-webkit-input-placeholder{
+        font-size: 0.6em;
+    }
+    input.botao-acessar{
+        width: 120px;
+        font-size: 12px;
+    }
+    .home {
+        width: 70px;
+        padding: 5px;
+        top: 20px;
+        font-size: 8px;
+        right: 34px;
+    }
+    .icon {
+        top: 22px;
+        right: 93px;
+    }
+}
+@media (max-width: 375px){
+
+    .titulo-login{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .formulario{
+        width: 55%;
+        right: 100%;
+        height: 50%;
+        left: 25%;
+    }
+    input.inputs {
+        width: 80%;
+        margin: 10px;
+    }
+    ::-webkit-input-placeholder{
+        font-size: 0.6em;
+    }
+    input.botao-acessar{
+        width: 120px;
+        font-size: 12px;
+    }
+    .home {
+        width: 70px;
+        padding: 5px;
+        top: 20px;
+        font-size: 8px;
+        right: 34px;
+    }
+    .icon {
+        top: 22px;
+        right: 93px;
+    }
+}
+@media (max-width: 320px){
+
+    .titulo-login{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+    .formulario{
+        width: 65%;
+        right: 100%;
+        height: 50%;
+        left: 25%;
+    }
+    input.inputs {
+        width: 75%;
+        margin: 10px;
+    }
+    ::-webkit-input-placeholder{
+        font-size: 0.6em;
+    }
+    input.botao-acessar{
+        width: 120px;
+        font-size: 12px;
+    }
+    .home {
+        width: 70px;
+        padding: 5px;
+        top: 20px;
+        font-size: 8px;
+        right: 34px;
+    }
+    .icon {
+        top: 22px;
+        right: 93px;
+    }
+}
